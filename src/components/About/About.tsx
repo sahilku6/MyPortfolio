@@ -23,32 +23,50 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Sahil Kumar, a dedicated and innovative Software Engineer with a strong foundation in full-stack web development and scalable backend systems. I'm passionate about building seamless user experiences and writing clean, maintainable code.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I specialize in creating dynamic web applications using React.js, Node.js, Next.js, and MongoDB. From developing real-time auction platforms to robust job portals and streaming services, I bring ideas to life with efficiency and precision.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            With a deep interest in cloud computing and DevOps, I’ve also gained hands-on experience deploying applications using platforms like Vercel, Render, and AWS. I’m constantly learning, adapting, and pushing my limits — whether it's through solving complex DSA problems on LeetCode or contributing to community development projects.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h4> Bachelor of Technology - Computer Science and Engineering</h4>
+            <p>Lovely Professional University, Punjab | August 2022 - Present</p>
+            <p>8.24 CGPA</p>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
+          <div className="education">
+            {/* <h3>Education:</h3> */}
+            <br />
+            <h4>Intermediate</h4>
+            <p>S.G.B.K Sahu Inter School, Bihar | April 2020 - March 2022</p>
+            <p>82%</p>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
+          <div className="education">
+            {/* <h3>Education:</h3> */}
+            <br />
+            <h4>Matriculation</h4>
+            <p>S.G.B.K Sahu Inter School, Bihar | April 2018 - March 2020</p>
+            <p>69%</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+            <h3>Experience:</h3><h4>Full-Stack Developer</h4>
+            <p>Self-Initiated Projects | Remote | Feb 2023 - Present</p>
+            <p>Punjab, India</p>
           </div>
         </ScrollAnimation>
 
