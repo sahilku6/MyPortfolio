@@ -1,5 +1,6 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
+// import VinayakSingh from "../../assets/VinayakSingh.webp";
+import SahilKumar from "../../assets/SahilKumar.webp"
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -33,7 +34,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            With a deep interest in cloud computing and DevOps, I’ve also gained hands-on experience deploying applications using platforms like Vercel, Render, and AWS. I’m constantly learning, adapting, and pushing my limits — whether it's through solving complex DSA problems on LeetCode or contributing to community development projects.
+            With a deep interest in cloud computing and DevOps, I've also gained hands-on experience deploying applications using platforms like Vercel, Render, and AWS. I’m constantly learning, adapting, and pushing my limits — whether it's through solving complex DSA problems on LeetCode or contributing to community development projects.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
@@ -133,7 +134,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={SahilKumar} alt="Sahil Kumar" />
         </ScrollAnimation>
       </div>
     </Container>
