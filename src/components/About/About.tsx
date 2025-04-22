@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-// import VinayakSingh from "../../assets/VinayakSingh.webp";
 import SahilKumar from "../../assets/SahilKumar.webp"
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
