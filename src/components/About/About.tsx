@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import SahilKumar from "../../assets/SahilKumar.webp"
+import Developer from "../../assets/Developer.webp"
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -133,7 +134,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={SahilKumar} alt="Sahil Kumar" />
+          <img src={Developer} alt="Sahil Kumar" />
         </ScrollAnimation>
       </div>
     </Container>
